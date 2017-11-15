@@ -1,0 +1,76 @@
+<html>
+<head>
+<style>
+.dropin {
+    background-color: #42b3f4;
+    color: white;
+    padding: 24px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #black}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropin {
+    background-color: #e542f4;
+}
+</style>
+</head>
+<body>
+
+<h2>Video Games For Consoles</h2>
+<p></p>
+
+<div class="dropdown">
+  <button class="dropin">Simon</button>
+  <div class="dropdown-content">
+    <a href="#">The Last of Us</a>
+    <a href="#">God of War</a>
+    <a href="#">Little Big Plante 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropin">XboxOne</button>
+  <div class="dropdown-content">
+    <a href="#">Halo 5</a>
+    <a href="#">Gears of War 4</a>
+    <a href="#">Forza Horizon 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropin">Wii</button>
+  <div class="dropdown-content">
+    <a href="#">Smash Bros</a>
+    <a href="#">New Super Mario Bros.Wii</a>
+    <a href="#">Wii Sports</a>
+  </div>
+</div>
+
+</body>
+</html>
